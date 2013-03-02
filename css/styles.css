@@ -1,0 +1,43 @@
+/*
+Stylesheet For: Gwent Theatre
+URL: http://gwenttheatre.com/closed
+Version: v1.0
+Author: Dafydd Vaughan, http://www.dafyddvaughan.co.uk
+*/
+
+html, body { background: #1F2D2E; padding: 0px; margin: 0px; }
+body, div, p { font-family: Arial,'sans serif'; font-size: small; color: #fff; }
+
+a { color: #0ea7ff; text-decoration: none; border-bottom: #0ea7ff 1px dotted; }
+a:hover { color: #000; text-decoration: none; border-bottom: #000 1px dotted; }
+
+h1 { background: transparent url(/images/gt-small.gif) no-repeat top left; font-size: 1.4em; color: #fff; font-weight: bold; padding: 15px 0 0 50px; }
+h1 span { color: #0ea7ff; }
+h2 { font-size: 1.6em; color: #0ea7ff; font-weight: bold; }
+h2 span { color: #004770; }
+
+#head { padding: 20px 0 10px 0; background: #004770; }
+#head.home h1 { background: transparent url(/images/gt.gif) no-repeat top left; font-size: 1.6em; padding: 70px 0 0 80px; }
+#menu { padding: 5px 0; background: #0ea7ff; margin: 0 0 1em 0;}
+#menu ul { list-style: none; margin: 0; padding: 0; }
+#menu ul li { display: inline; padding: 0 10px;}
+#menu a { color: #fff; }
+#menu a:hover { color: #000; }
+
+#content { background: #fff; padding: 15px; }
+#content p { font-size: 1.3em; color: #1F2D2E; }
+#content img.meta { float: right; padding: 0 0 1em 1em;}
+
+ul.galleries { margin: 0; padding: 0; list-style: none;}
+ul.galleries li { width: 270px; float: left; margin: 0 1em 1em 0; padding: 2px;  }
+ul.galleries li a { color: #004770; font-size: 1.3em; border: 0; font-weight: bold; display: block; min-height: 155px; background: #ddd; padding: 0 1em 0 0; }
+ul.galleries li a:hover { background: #0ea7ff; color: #fff;}
+ul.galleries li a span { font-weight: normal; font-size: 0.9em; }
+ul.galleries li a img { float: left; padding: 0 1em 0 0; }
+ul.galleries li a.long { font-size: 1.1em; }
+
+ul.photos { margin: 0; padding: 0; list-style: none;}
+ul.photos li { width: 180; float: left; margin: 0 1em 1em 0; }
+
+#footer { border-top: #0ea7ff 1px solid; margin: 0; padding: 10px 0 10px 0; }
+#footer a:hover { color: #0ea7ff; }
