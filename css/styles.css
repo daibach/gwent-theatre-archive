@@ -6,7 +6,7 @@ Author: Dafydd Vaughan, http://www.dafyddvaughan.co.uk
 */
 
 html, body { background: #1F2D2E; padding: 0px; margin: 0px; }
-body, div, p { font-family: Arial,'sans serif'; font-size: small; color: #fff; }
+body, div, p { font-family: Arial,'sans serif'; font-size: small; }
 
 a { color: #0ea7ff; text-decoration: none; border-bottom: #0ea7ff 1px dotted; }
 a:hover { color: #000; text-decoration: none; border-bottom: #000 1px dotted; }
@@ -15,6 +15,7 @@ h1 { background: transparent url(/images/gt-small.gif) no-repeat top left; font-
 h1 span { color: #0ea7ff; }
 h2 { font-size: 1.6em; color: #0ea7ff; font-weight: bold; }
 h2 span { color: #004770; }
+h3 { font-size: 1.6em; color: #0ea7ff; font-weight: bold;}
 
 #head { padding: 20px 0 10px 0; background: #004770; }
 #head.home h1 { background: transparent url(/images/gt.gif) no-repeat top left; font-size: 1.6em; padding: 70px 0 0 80px; }
@@ -39,5 +40,5 @@ ul.galleries li a.long { font-size: 1.1em; }
 ul.photos { margin: 0; padding: 0; list-style: none;}
 ul.photos li { width: 180; float: left; margin: 0 1em 1em 0; }
 
-#footer { border-top: #0ea7ff 1px solid; margin: 0; padding: 10px 0 10px 0; }
+#footer { border-top: #0ea7ff 1px solid; margin: 0; padding: 10px 0 10px 0; color: #fff; }
 #footer a:hover { color: #0ea7ff; }
