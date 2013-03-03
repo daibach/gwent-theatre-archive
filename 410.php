@@ -15,16 +15,26 @@ header("HTTP/1.0 410 Gone");
 
   <title>The page you have requested is no longer available | Theatre Gwent Theatre | 410 Gone</title>
 
-  <link rel="stylesheet" href="/css/blueprint-screen.css" type="text/css" media="screen, projection" />
-  <link rel="stylesheet" href="/css/blueprint-print.css" type="text/css" media="print" />
-  <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="http://www.gwenttheatre.com/css/blueprint-screen.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="http://www.gwenttheatre.com/css/blueprint-print.css" type="text/css" media="print" />
+  <link rel="stylesheet" href="http://www.gwenttheatre.com/css/styles.css" type="text/css" media="screen, projection" />
 
 </head>
 <body>
 
   <div id="head" class="home">
     <div class="container">
-      <h1>theatr<br/>gwent<br/>theatre</h1>
+      <h1>theatr<br/>gwent<br/>theatre <span>archive</span></h1>
+    </div>
+  </div>
+  <div id="menu">
+    <div class="container">
+      <ul>
+        <li><a href="http://www.gwenttheatre.com/">Introduction</a></li>
+        <li><a href="http://www.gwenttheatre.com/about.html">About Gwent Theatre</a></li>
+        <li><a href="http://www.gwenttheatre.com/galleries.html">Photo Galleries</a></li>
+        <li><a href="http://www.gwenttheatre.com/gypt.html">GYPT</a></li>
+      </ul>
     </div>
   </div>
   <div class="container">
@@ -35,7 +45,7 @@ header("HTTP/1.0 410 Gone");
     </div>
 
     <div id="footer">
-      Archive maintained by <a href="http://www.dafyddvaughan.co.uk" title="Dafydd Vaughan">Dafydd Vaughan</a>
+      <a href="https://github.com/daibach/gwent-theatre-archive">Archive</a> maintained by <a href="http://www.dafyddvaughan.co.uk" title="Dafydd Vaughan">Dafydd Vaughan</a>
     </div>
   </div>
 
