@@ -1,4 +1,7 @@
-gwent-theatre-archive
-=====================
+⚠️ This is no longer maintained ⚠️
+Last update: June 2014
 
-Archive of Gwent Theatre material
+# Gwent Theatre Archive
+
+This is an HTML archive of photos from various performances from the Gwent
+Theatre Company. The company closed in 2010.
